@@ -16,7 +16,7 @@ setup(
     provides = 'sapling',
     install_requires = (
       'gitdb >= 0.5.1',
-      'GitPython > 0.2, < 0.4',
+      'GitPython >= 2.1.8',
     ),
 
     packages = [ 'saplib', 'sapversion' ],
